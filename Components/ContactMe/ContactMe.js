@@ -38,7 +38,7 @@ const ContactMe = () => {
                 quality={100}
               />
             </motion.div>
-            <motion.span whileHover={{ scale: 1.2 }} whileTap={{ scale: 1.2 }}>
+            <motion.span whileHover={{ scale: 1.2 }} whileTap={{ scale: 1.2 }} onClick={Whatsapp} >
               whatsapp
             </motion.span>
           </ContactText>
